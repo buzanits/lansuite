@@ -20,5 +20,7 @@ function check_birthday($date): bool|string
         } else {
             return false;
         }
+    } else {
+        return false;
     }
 }
